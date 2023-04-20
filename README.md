@@ -40,3 +40,12 @@
 
 16. run build with
     `npx expo run:ios`
+
+# preview
+
+![alt text](./preview/1.png)
+![alt text](./preview/2.png)
+![alt text](./preview/3.png)
+![alt text](./preview/4.png)
+![alt text](./preview/5.png)
+![alt text](./preview/6.png)
