@@ -34,7 +34,7 @@ const LoginScreen = () => {
       <GoogleSigninButton
         disabled={loading}
         onPress={onGoogleButtonPress}
-        style={tw`absolute bottom-40 w-52 mx-[25%] p-4 rounded-2xl`}
+        style={tw`absolute bottom-40 w-52 mx-[25%] font-black p-4 rounded-2xl`}
       />
     </View>
   );

@@ -24,7 +24,8 @@ const ModelScreen = () => {
   const updateUserProfile = () => {
     firestore()
       .collection("users")
-      .add({
+      .doc(user.uid)
+      .set({
         id: user.uid,
         displayName: user.displayName,
         photoURL: image,
