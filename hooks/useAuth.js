@@ -11,8 +11,7 @@ import auth from "@react-native-firebase/auth";
 import { GoogleSignin } from "@react-native-google-signin/google-signin";
 
 GoogleSignin.configure({
-  webClientId:
-    "28943922160-l9m15tb2bvbq1qcfju4fl49390vjdm90.apps.googleusercontent.com",
+  webClientId: "",
 });
 
 const AuthContext = createContext();
